@@ -375,7 +375,7 @@ typedef NS_ENUM(int, DTX_StatusCode) {
  @brief Manaully start timing a web request.
 
  The Dynatrace OneAgent automatically times web requests made using NSURLRequest, NSURLConnection,
- NSURLProtocol, NSString and UIWebView. If you use an alternate technology to make
+ NSURLProtocol, NSString and . If you use an alternate technology to make
  web requests and want to time them, use the getRequestTagHeader method, adding that information to
  your request, and then this method to start the timing.
 
@@ -390,7 +390,7 @@ typedef NS_ENUM(int, DTX_StatusCode) {
  for a failed web request
 
  The Dynatrace OneAgent automatically times web requests made using NSURLRequest, NSURLConnection,
- NSURLProtocol, NSString and UIWebView. If you use an alternate technology to make
+ NSURLProtocol, NSString and . If you use an alternate technology to make
  web requests and want to time them, use the getRequestTagHeader method, adding that information to
  your request, and then this method to stop the timing and send the information to the mobile action PurePath.
 
@@ -698,7 +698,7 @@ typedef NS_ENUM(int, DTX_StatusCode) {
  @brief Returns the HTTP header to use for manual web request tagging.
 
  The Dynatrace OneAgent automatically tags web requests made using NSURLRequest, NSURLConnection,
- NSURLProtocol, NSString and UIWebView. If you use an alternate technology to make
+ NSURLProtocol, NSString and . If you use an alternate technology to make
  web requests and want them to appear nested in a mobile action PurePath use this method and the
  getRequestTagValue method to retrieve the HTTP header and its value. Adding that information to
  your request will include it in the PurePath.
@@ -711,7 +711,7 @@ typedef NS_ENUM(int, DTX_StatusCode) {
  @brief Returns the HTTP header value to use for manual web request tagging.
 
  The Dynatrace OneAgent automatically tags web requests made using NSURLRequest, NSURLConnection,
- NSURLProtocol, NSString and UIWebView. If you use an alternate technology to make
+ NSURLProtocol, NSString and . If you use an alternate technology to make
  web requests and want them to appear nested in a mobile action PurePath use this method and the
  getRequestTagHeader method to retrieve the HTTP header and its value. Adding that information to
  your request will include it in the PurePath.
