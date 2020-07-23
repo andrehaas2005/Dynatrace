@@ -13,8 +13,8 @@
         "ios": "8.0"
     },
     "default_subspecs": "framework",
-    "source_files": "iOS/agent/*.{h,m}",
-    "public_header_files": "iOS/agent/*.h",
+    "source_files": "../iOS/agent/*.{h,m}",
+    "public_header_files": "../iOS/agent/*.h",
     "frameworks": [
         "CoreLocation",
         "CoreTelephony",
@@ -34,15 +34,15 @@
         {
             "name": "lib",
             "ios": {
-                "vendored_libraries": "iOS/agent/libDynatrace.a"
+                "vendored_libraries": "../iOS/agent/libDynatrace.a"
             },
-            "source_files": "iOS/agent/*.{h,m}",
-            "public_header_files": "iOS/agent/*.h"
+            "source_files": "../iOS/agent/*.{h,m}",
+            "public_header_files": "../iOS/agent/*.h"
         },
         {
             "name": "framework",
             "ios": {
-                "vendored_frameworks": "iOS/agent/Dynatrace.framework"
+                "vendored_frameworks": "../iOS/agent/Dynatrace.framework"
             }
         }
     ]
