@@ -1,16 +1,12 @@
 {
     "name": "Dynatrace",
-    "version": "7.2.9.1254",
+
     "summary": "Dynatrace collects app performance and usage data in real-time",
     "description": "Dynatrace provides the next generation intelligent application, service and infrastructure monitoring\nplatform.",
-    "homepage": "https://www.dynatrace.com",
-    "documentation_url": "https://help.dynatrace.com",
+
     "license": {
         "type": "Commercial",
         "text": "Terms of Service\n\n\t\t\t\t\t  1.0
-    },
-    "authors": {
-        "Dynatrace": "support.mobile@dynatrace.com"
     },
     "social_media_url": "https://twitter.com/dynatrace",
     "platforms": {
